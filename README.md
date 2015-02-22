@@ -25,9 +25,9 @@ You should create one R script called run_analysis.R that does the following.
 
 Measurement_means is the output from step 5 of this script.
 
-##Processing
+##Processing Steps
 
-###1.  Reading and merging data
+###  Reading and merging data
 There are 2 data sets to combine, provided in the test and train folders in the data set.  Each data set is distributed in 3 files.  These files are read in separately and combine using a cbind.
 
 ```r
@@ -80,10 +80,11 @@ The final step asks for a data set with the average variable for each activity a
 ```r
 #group data frame by subject id and activity label
 test_groups <- group_by(means, subject_id, activity_label)
-#take the mean of each of the meansuments
+#take the mean of each of the measuments
 measurement_means <-summarise_each(test_groups, funs(mean))
 ``` 
 
+## Files in this Repo
 The final data is written to measurement_means.txt  
 A codebook is included (measurement_means.md) to describe the final data set
 
