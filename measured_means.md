@@ -42,9 +42,9 @@ The remainder of the the values are means of measurements taken during the exper
 
 More information available in features_info.txt within the data set.
 
-tBodyAcc.mean.X
-tBodyAcc.mean.Y
-tBodyAcc.mean.Z             
+tBodyAcc.mean.X  
+tBodyAcc.mean.Y  
+tBodyAcc.mean.Z               
 tGravityAcc.mean.X           
 tGravityAcc.mean.Y           
 tGravityAcc.mean.Z           
@@ -83,11 +83,11 @@ fBodyGyro.meanFreq.Z
 fBodyAccMag.mean             
 fBodyAccMag.meanFreq         
 fBodyBodyAccJerkMag.mean     
-fBodyBodyAccJerkMag.meanFreq 
+fBodyBodyAccJerkMag.meanFreq   
 fBodyBodyGyroMag.mean        
 fBodyBodyGyroMag.meanFreq    
 fBodyBodyGyroJerkMag.mean    
-fBodyBodyGyroJerkMag.meanFreq
+fBodyBodyGyroJerkMag.meanFreq  
 tBodyAcc.std.X               
 tBodyAcc.std.Y               
 tBodyAcc.std.Z               
