@@ -36,8 +36,10 @@ activity_label              : activity performed by participant-WALKING, WALKING
 
 ####Measurements
 The remainder of the the values are means of measurements taken during the experiment.  
-The prefix “t” is used to denote time
-The prefix “f” is used to denote frequency domain signals
+
+  *The prefix “t” is used to denote time
+  *The prefix “f” is used to denote frequency domain signals
+
 More information available in features_info.txt within the data set.
 
 tBodyAcc.mean.X
